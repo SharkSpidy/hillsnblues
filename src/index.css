@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading-name: 'Playfair Display';
+  --font-body-name: 'Lato';
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+  --letter-spacing-heading: 0.5px;
+  --letter-spacing-body: 0.2px;
+
+  --space-base: 1rem;
+
+  --radius-small: 4px;
+  --radius-large: 12px;
+  --border-width: 1px;
+
+  --shadow-color: 35 107 79;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 8px;
+  --shadow-blur: 24px;
+  --shadow-spread: -4px;
+  --shadow-opacity: 0.15;
+
+  --shadow-custom: 0px 8px 24px -4px rgba(var(--shadow-color), var(--shadow-opacity));
+  --shadow-custom-hover: 0px 12px 32px -4px rgba(var(--shadow-color), 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(26, 70, 55, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

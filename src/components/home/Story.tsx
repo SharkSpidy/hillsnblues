@@ -1,0 +1,58 @@
+import { MapPin } from 'lucide-react';
+
+function Story() {
+  return (
+    <section id="about" className="py-20 md:py-32 bg-background-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="relative">
+            <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary-300 rounded-tl-3xl"></div>
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary-300 rounded-br-3xl"></div>
+            <video
+              src="/src/assets/videos/View_Hills.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="rounded-large shadow-custom w-full h-[500px] object-cover relative z-10"
+            ></video>
+          </div>
+          <div className="space-y-8">
+            <div>
+              <h2 className="font-heading text-4xl md:text-5xl text-primary-900 mb-6">
+                A Cottage Surrounded by Nature
+              </h2>
+              <div className="w-20 h-1 bg-secondary-400 mb-8"></div>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-6">
+                Welcome to{' '}
+                <span className="font-heading text-primary-800 italic">Serenity in the Hills</span>{' '}
+                – Your Private Cottage in Peerumedu.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Tucked away in the lush highlands of Kerala, this charming homestay offers a serene
+                retreat amidst tea and cardamom plantations. Designed for travelers seeking peace,
+                comfort, and nature's magic, our single exclusive cottage ensures your privacy is
+                paramount.
+              </p>
+            </div>
+
+            <div className="flex items-start gap-4 p-6 bg-white rounded-large shadow-sm border border-neutral-100">
+              <div className="bg-primary-50 p-3 rounded-full text-primary-700">
+                <MapPin className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="font-heading text-lg text-primary-900 mb-1">Perfectly Positioned</h3>
+                <p className="text-neutral-500 text-sm">
+                  Located just 1.2 km from Kallar Junction, on the scenic route to the
+                  breathtaking Parunthumpara viewpoints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Story;

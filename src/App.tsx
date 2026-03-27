@@ -1,0 +1,79 @@
+import { useState, useEffect } from 'react';
+import ViewSwitcher from './components/common/ViewSwitcher';
+import Navbar from './components/common/Navbar';
+import Hero from './components/home/Hero';
+import Story from './components/home/Story';
+import Cottage from './components/Cottage';
+import Experience from './components/Experience';
+import Gallery from './components/home/Gallery';
+import Testimonials from './components/home/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/common/Footer';
+
+type ViewType = 'landing' | 'admin-login' | 'admin-dashboard';
+
+function App() {
+  const [currentView, setCurrentView] = useState<ViewType>('landing');
+
+  const handleSwitchView = (view: ViewType) => {
+    setCurrentView(view);
+    if (view === 'landing') {
+      window.scrollTo(0, 0);
+    }
+  };
+
+  useEffect(() => {
+    const handleAnchorClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const anchor = target.closest('a[href^="#"]');
+      if (anchor) {
+        e.preventDefault();
+        const href = anchor.getAttribute('href');
+        if (href) {
+          const element = document.querySelector(href);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
+    };
+
+    const handleFormSubmit = (e: Event) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName === 'FORM') {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener('click', handleAnchorClick);
+    document.addEventListener('submit', handleFormSubmit);
+
+    return () => {
+      document.removeEventListener('click', handleAnchorClick);
+      document.removeEventListener('submit', handleFormSubmit);
+    };
+  }, []);
+
+  return (
+    <>
+      <ViewSwitcher onSwitchView={handleSwitchView} />
+
+      {currentView === 'landing' && (
+        <div className="view-section active">
+          <Navbar />
+          <Hero />
+          <Story />
+          <Cottage />
+          <Experience />
+          <Gallery />
+          <Testimonials />
+          <Contact />
+          <Footer />
+        </div>
+      )}
+
+    </>
+  );
+}
+
+export default App;
