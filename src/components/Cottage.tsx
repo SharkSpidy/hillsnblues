@@ -31,7 +31,7 @@ function Cottage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               <div className="absolute bottom-6 left-6">
                 <span className="bg-white/20 backdrop-blur-md text-white px-3 py-1 rounded-full text-xs uppercase tracking-wide border border-white/30">
-                  Entire Cottage
+                  The Cottage
                 </span>
               </div>
             </div>
