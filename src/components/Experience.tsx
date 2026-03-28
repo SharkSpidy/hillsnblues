@@ -74,7 +74,7 @@ function Experience() {
           </div>
         </div>
 
-        {/* Card 2 */}
+        {/* Card 2
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
           <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
             <img
@@ -92,7 +92,7 @@ function Experience() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Card 3 */}
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">

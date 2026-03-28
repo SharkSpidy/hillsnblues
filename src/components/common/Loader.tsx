@@ -22,7 +22,7 @@ export default function Loader() {
         <img
           src={logo}
           alt="Logo"
-          className="w-28 mx-auto logo-animation"
+          className="w-50 mx-auto logo-animation"
         />
         <p className="text-white/60 mt-4 text-xs tracking-[0.3em] uppercase">
           Hills & Blues

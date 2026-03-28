@@ -42,7 +42,7 @@ function Navbar() {
               <img
                 src={logo}
                 alt="Hills & Blues Logo"
-                className="h-20 w-auto object-contain cursor-pointer drop-shadow-md"
+                className="h-40 w-60 object-contain cursor-pointer drop-shadow-md"
               />
             </a>
           </div>
