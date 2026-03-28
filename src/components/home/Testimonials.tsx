@@ -59,10 +59,10 @@ function Testimonials() {
             {/* TEXT BELOW IMAGE */}
             <div className="text-center lg:text-left space-y-2">
               <p className="font-heading text-xl text-primary-900">
-                Where comfort meets calm.
+                Here, time slows down. 
               </p>
               <p className="text-neutral-600 text-sm">
-                Wake up to mist, unwind with silence, and experience the hills like never before.
+                Evenings are best spent watching golden sunsets melt into misty horizons, while mornings invite you for refreshing plantation strolls.
               </p>
             </div>
 
