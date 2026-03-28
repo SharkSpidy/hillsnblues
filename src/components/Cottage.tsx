@@ -70,6 +70,32 @@ function Cottage() {
                 enjoying home-style meals.
               </p>
             </div>
+            <div className="bg-white/5 border border-white/10 p-5 rounded-large">
+  <div className="flex items-center justify-between">
+    
+    {/* Price */}
+    <div>
+      <p className="text-primary-200 text-xs uppercase tracking-wide mb-1">
+        Starting From
+      </p>
+      <div className="flex items-end gap-2">
+        <span className="text-3xl font-semibold text-white">₹4,999</span>
+        <span className="text-primary-200 text-sm mb-1">/ night</span>
+      </div>
+      <p className="text-primary-300 text-xs mt-1">
+        + GST applicable
+      </p>
+    </div>
+
+    {/* CTA */}
+    <a
+      href="#contact"
+      className="bg-white text-primary-900 px-4 py-2 rounded-small text-sm font-medium hover:bg-primary-50 transition-all"
+    >
+      Book Now
+    </a>
+  </div>
+</div>
           </div>
         </div>
       </div>
