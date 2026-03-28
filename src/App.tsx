@@ -81,8 +81,8 @@ function App() {
           <Hero />
           <Story />
           <Cottage />
-          <Experience />
           <Gallery />
+          <Experience />
           <Testimonials />
           <Contact />
           <Footer />
