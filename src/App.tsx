@@ -82,8 +82,8 @@ function App() {
           <Story />
           <Cottage />
           <Gallery />
-          <Experience />
           <Testimonials />
+          <Experience />
           <Contact />
           <Footer />
         </div>
