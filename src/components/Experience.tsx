@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import peerumedu_1 from '../assets/images/Peerumedu_1.jpg';
 import peerumedu_4 from '../assets/images/Peerumedu_4.jpg';
 import peerumedu_5 from '../assets/images/Peerumedu_5.jpg';
+import Wild_Life from '../assets/videos/Wild_Life.mp4';
 
 function Experience() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -18,15 +19,15 @@ function Experience() {
 
   return (
     <section id="experience" className="py-20 bg-background-100 overflow-hidden">
-      
+
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 flex justify-between items-end">
         <div>
-          <h2 className="font-heading text-4xl text-primary-900 mb-2">
+          <h2 className="font-heading text-3xl md:text-4xl text-primary-900 mb-2">
             Experience the Magic of Peerumedu
           </h2>
-          <p className="text-neutral-600">
-            Immerse yourself in the magic of Peerumedu.
+          <p className="text-neutral-600 text-sm md:text-base">
+            Immerse yourself in the beauty of hills, wildlife, and nature.
           </p>
         </div>
 
@@ -54,57 +55,64 @@ function Experience() {
         className="flex overflow-x-auto gap-6 px-4 sm:px-6 lg:px-8 pb-8 no-scrollbar snap-x snap-mandatory"
       >
 
+        {/* CARD TEMPLATE */}
         {/* Card 1 */}
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
-          <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
+          <div className="relative h-[420px] rounded-large overflow-hidden shadow-md">
             <img
               src={peerumedu_5}
               alt="Parunthumpara"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
-              <h3 className="font-heading text-2xl text-white mb-1">
+              <h3 className="font-heading text-xl text-white mb-1">
                 Parunthumpara Views
               </h3>
               <p className="text-neutral-300 text-sm">
-                Breathtaking eagle rock viewpoints just a short drive away.
+                Breathtaking viewpoints just a short drive away.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Card 2
+        {/* Card 2 (VIDEO FIXED) */}
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
-          <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
-            <img
-              src={peerumedu_2}
-              alt="Tea Plantation"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          <div className="relative h-[420px] rounded-large overflow-hidden shadow-md">
+            
+            <video
+              src={Wild_Life}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
+
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+
             <div className="absolute bottom-0 left-0 p-6">
-              <h3 className="font-heading text-2xl text-white mb-1">
-                Tea Plantation Walks
+              <h3 className="font-heading text-xl text-white mb-1">
+                Wildlife Encounters
               </h3>
               <p className="text-neutral-300 text-sm">
-                Wander through endless green carpets of tea leaves.
+                Experience rare and beautiful wildlife moments.
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Card 3 */}
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
-          <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
+          <div className="relative h-[420px] rounded-large overflow-hidden shadow-md">
             <img
               src={peerumedu_4}
               alt="Mountains"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
-              <h3 className="font-heading text-2xl text-white mb-1">
+              <h3 className="font-heading text-xl text-white mb-1">
                 Scenic Hill Drives
               </h3>
               <p className="text-neutral-300 text-sm">
@@ -116,19 +124,19 @@ function Experience() {
 
         {/* Card 4 */}
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
-          <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
+          <div className="relative h-[420px] rounded-large overflow-hidden shadow-md">
             <img
               src={peerumedu_1}
               alt="Hidden Nature Spot"
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
-              <h3 className="font-heading text-2xl text-white mb-1">
+              <h3 className="font-heading text-xl text-white mb-1">
                 Hidden Nature Spots
               </h3>
               <p className="text-neutral-300 text-sm">
-                Discover secluded areas where nature thrives in its purest form.
+                Discover untouched beauty in peaceful surroundings.
               </p>
             </div>
           </div>

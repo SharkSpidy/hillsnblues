@@ -42,7 +42,7 @@ Whether you’re planning a romantic getaway, a family holiday, or a peaceful wo
               <div>
                 <h3 className="font-heading text-lg text-primary-900 mb-1">Springdale Cottage Pambanar, Peermade</h3>
                 <p className="text-neutral-500 text-sm">
-                  2 Bedroom Entire Cottage Located just 1.2 km from Kallar Junction, on the scenic route to the
+                  2 Bedroom Entire Cottage.<br></br> Located just 1.2 km from Kallar Junction, on the scenic route to the
                   breathtaking Parunthumpara viewpoints.
                 </p>
               </div>
