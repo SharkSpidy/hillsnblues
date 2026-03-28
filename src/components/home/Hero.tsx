@@ -26,10 +26,10 @@ function Hero() {
           <span className="italic font-medium">
             Welcome To Serenity In The Hills
           </span>
-        </p>
         <span className="block text-primary-100 text-sm md:text-base uppercase tracking-[0.2em] mb-4 font-medium">
           Peerumedu, Kerala
         </span>
+        </p>
         {/* <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight drop-shadow-lg">
           Welcome To Serenity in <br />
           <span className="italic font-light">the Hills</span>
