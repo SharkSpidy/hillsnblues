@@ -1,4 +1,5 @@
 import { MapPin } from 'lucide-react';
+import StoryVideo from '../../assets/videos/View_Hills.mp4';
 
 function Story() {
   return (
@@ -9,7 +10,7 @@ function Story() {
             <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary-300 rounded-tl-3xl"></div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary-300 rounded-br-3xl"></div>
             <video
-              src="/src/assets/videos/View_Hills.mp4"
+              src={StoryVideo}
               autoPlay
               loop
               muted
