@@ -31,7 +31,7 @@ Come experience simplicity, serenity, and soulful comfort — all in one beautif
                 <Phone className="w-6 h-6 text-secondary-400 mt-1" />
                 <div>
                   <h4 className="font-bold text-white">Phone</h4>
-                  <p className="text-primary-200">+91 98470 12345</p>
+                  <p className="text-primary-200">+91 9400500758</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
