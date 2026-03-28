@@ -1,4 +1,3 @@
-import { ChevronDown } from 'lucide-react';
 import hillsImage from '../../assets/images/Title.jpeg';
 
 function Hero() {
