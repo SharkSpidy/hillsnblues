@@ -1,4 +1,4 @@
-import { BedDouble, Bath, Armchair } from 'lucide-react';
+import { BedDouble, Bath, Armchair, CookingPot } from 'lucide-react';
 import cottageFront from '../assets/images/Cottage_Front.jpeg';
 import cottageporch from '../assets/images/Cottage_Porch.jpeg';
 
@@ -76,6 +76,7 @@ function Cottage() {
           </div>
 
           <div className="glass-dark p-5 rounded-large">
+            <CookingPot className="mb-2 text-secondary-300" />
             <h3 className="font-heading text-lg">Dining Area</h3>
             <p className="text-xs text-primary-200">
               Enjoy meals in a cozy setting
