@@ -66,7 +66,7 @@ function App() {
     };
   }, []);
 
-  // 🔥 LOADER FIRST
+
   if (loading) {
     return <Loader />;
   }
