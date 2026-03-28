@@ -4,7 +4,7 @@ import cottageporch from '../assets/images/Cottage_Porch.jpeg';
 
 function Cottage() {
   return (
-    <section className="py-20 bg-primary-900 text-white relative overflow-hidden">
+    <section id="cottage" className="py-20 bg-primary-900 text-white relative overflow-hidden">
 
       {/* Background */}
       <div
