@@ -51,10 +51,6 @@ function Hero() {
           </a>
         </div>
       </div>
-
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-white/70">
-        <ChevronDown className="w-8 h-8" />
-      </div>
     </section>
   );
 }
