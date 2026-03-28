@@ -1,4 +1,5 @@
 import { ChevronDown } from 'lucide-react';
+import hillsImage from '../../assets/images/Title.jpeg';
 
 function Hero() {
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -13,8 +14,8 @@ function Hero() {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="./src/assets/images/Title.jpeg"
-          alt="Misty Hills Peerumedu"
+          src={hillsImage}
+          alt="Hills Peerumedu"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/40 via-neutral-900/20 to-neutral-900/60"></div>
