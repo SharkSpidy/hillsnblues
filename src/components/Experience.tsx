@@ -2,8 +2,8 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useRef } from 'react';
 
 import peerumedu_1 from '../assets/images/Peerumedu_1.jpg';
-import peerumedu_2 from '../assets/images/Peerumedu_2.jpg';
 import peerumedu_4 from '../assets/images/Peerumedu_4.jpg';
+import peerumedu_5 from '../assets/images/Peerumedu_5.jpg';
 
 function Experience() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ function Experience() {
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
           <div className="relative h-[450px] rounded-large overflow-hidden shadow-md">
             <img
-              src="https://images.unsplash.com/photo-1596021688656-35fdc9ed0274?q=80&w=1000&auto=format&fit=crop"
+              src={peerumedu_5}
               alt="Parunthumpara"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
