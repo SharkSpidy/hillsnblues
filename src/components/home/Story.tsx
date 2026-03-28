@@ -27,13 +27,11 @@ function Story() {
               <p className="text-lg text-neutral-600 leading-relaxed mb-6">
                 Welcome to{' '}
                 <span className="font-heading text-primary-800 italic">Serenity in the Hills</span>{' '}
-                – Your Private Cottage in Peerumedu.
               </p>
               <p className="text-neutral-600 leading-relaxed">
-                Tucked away in the lush highlands of Kerala, this charming homestay offers a serene
-                retreat amidst tea and cardamom plantations. Designed for travelers seeking peace,
-                comfort, and nature's magic, our single exclusive cottage ensures your privacy is
-                paramount.
+                Your Private Cottage in Peerumedu, Tucked away in the lush highlands of Kerala, our charming homestay cottage offers a serene retreat amidst sprawling tea and fragrant cardamom plantations. Designed for travelers who seek peace, comfort, and a touch of nature’s magic, this cozy haven promises an unforgettable stay in the heart of the Western Ghats.
+                Wake up to mist-kissed mornings, the aroma of fresh cardamom in the air, and panoramic views of endless tea gardens. The gentle rustle of leaves, the songs of hill birds, and the cool mountain breeze create an atmosphere of pure tranquility.
+Whether you’re planning a romantic getaway, a family holiday, or a peaceful work-from-hills escape, our cottage offers the perfect blend of comfort and nature.
               </p>
             </div>
 

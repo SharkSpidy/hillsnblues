@@ -1,7 +1,7 @@
 import Bedroom1 from '../../assets/images/Bed_Room_1.jpeg';
 import Bedroom2 from '../../assets/images/Bed_Room_2.jpeg';
 import LivingRoom from '../../assets/images/Living_Room_1.jpeg';
-import CottagePorch from '../../assets/images/Cottage_Porch.jpeg';
+import LivingRoom2 from '../../assets/images/Living_Room_2.jpeg';
 import WashRoom from '../../assets/images/Wash_Room.jpeg';
 
 function Gallery() {
@@ -44,8 +44,8 @@ function Gallery() {
           </div>
           <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
             <img
-              src={CottagePorch}
-              alt="Cottage Porch"
+              src={LivingRoom2}
+              alt="Living Room 2"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
           </div>

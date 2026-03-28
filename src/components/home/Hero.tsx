@@ -11,7 +11,7 @@ function Hero() {
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-end justify-center pb-24 md:pb-10 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src={hillsImage}
@@ -22,6 +22,11 @@ function Hero() {
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto fade-in-up">
+        <p className="text-2xl md:text-3xl lg:text-4xl text-neutral-100 mb-10 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md">
+          <span className="italic font-medium">
+            Welcome To Serenity In The Hills
+          </span>
+        </p>
         <span className="block text-primary-100 text-sm md:text-base uppercase tracking-[0.2em] mb-4 font-medium">
           Peerumedu, Kerala
         </span>
@@ -29,11 +34,6 @@ function Hero() {
           Welcome To Serenity in <br />
           <span className="italic font-light">the Hills</span>
         </h1> */}
-        <p className="text-2xl md:text-3xl lg:text-4xl text-neutral-100 mb-10 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md">
-          <span className="italic font-medium">
-            Welcome To Serenity In The Hills
-          </span>
-        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#contact"

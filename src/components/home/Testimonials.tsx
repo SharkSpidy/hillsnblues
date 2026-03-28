@@ -44,36 +44,7 @@ function Testimonials() {
               </li>
             </ul>
           </div>
-
-          {/* <div className="bg-white p-8 rounded-large shadow-custom border border-neutral-100 relative">
-            <Quote className="absolute top-8 left-8 w-10 h-10 text-primary-100 fill-current" />
-            <div className="relative z-10 pt-8">
-              <p className="text-neutral-600 italic text-lg mb-6">
-                "A truly peaceful escape into nature. The morning mist rolling over the tea gardens
-                while sipping coffee on the porch was unforgettable. Perfect place to disconnect
-                and relax."
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-neutral-200 rounded-full overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop"
-                    alt="User"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-heading text-primary-900 font-bold">Anjali Menon</h4>
-                  <div className="flex text-secondary-500 text-xs">
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+          
         </div>
       </div>
     </section>
