@@ -9,11 +9,13 @@ import Gallery from './components/home/Gallery';
 import Testimonials from './components/home/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/common/Footer';
+import Loader from './components/common/Loader';
 
 type ViewType = 'landing' | 'admin-login' | 'admin-dashboard';
 
 function App() {
   const [currentView, setCurrentView] = useState<ViewType>('landing');
+  const [loading, setLoading] = useState(true);
 
   const handleSwitchView = (view: ViewType) => {
     setCurrentView(view);
@@ -22,6 +24,16 @@ function App() {
     }
   };
 
+  // Loader effect
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500); // adjust duration here
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Smooth scroll + prevent default form
   useEffect(() => {
     const handleAnchorClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
@@ -54,6 +66,11 @@ function App() {
     };
   }, []);
 
+  // 🔥 LOADER FIRST
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <>
       <ViewSwitcher onSwitchView={handleSwitchView} />
@@ -72,6 +89,7 @@ function App() {
         </div>
       )}
 
+      {/* Future: admin views here */}
     </>
   );
 }
