@@ -2,7 +2,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useRef } from 'react';
 
 import peerumedu_1 from '../assets/images/Peerumedu_1.jpg';
-import peerumedu_4 from '../assets/images/Peerumedu_4.jpg';
+import sunset_hills2 from '../assets/images/Sunset_Hills2.jpeg';
 import peerumedu_5 from '../assets/images/Peerumedu_5.jpg';
 import Wild_Life from '../assets/videos/Wild_Life.mp4';
 
@@ -106,17 +106,17 @@ function Experience() {
         <div className="min-w-[300px] md:min-w-[350px] snap-center group">
           <div className="relative h-[420px] rounded-large overflow-hidden shadow-md">
             <img
-              src={peerumedu_4}
-              alt="Mountains"
+              src={sunset_hills2}
+              alt="Sunrise Hills"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
               <h3 className="font-heading text-xl text-white mb-1">
-                Scenic Hill Drives
+                Beautiful Sunrise
               </h3>
               <p className="text-neutral-300 text-sm">
-                Winding roads through mist-covered mountains.
+                Rays of morning sun gleaming through the windows of clouds.
               </p>
             </div>
           </div>
