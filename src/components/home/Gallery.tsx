@@ -28,13 +28,6 @@ function Gallery() {
           </div>
           <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
             <img
-              src= {WashRoom}
-              alt="Wash Room"
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            />
-          </div>
-          <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
-            <img
               src={Bedroom1}
               alt="Bedroom 1"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -44,6 +37,13 @@ function Gallery() {
             <img
               src={LivingRoom2}
               alt="Living Room 2"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+          </div>
+          <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
+            <img
+              src= {WashRoom}
+              alt="Wash Room"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
           </div>
