@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 // 🔧 Replace with your actual Formspree endpoint ID
 // Get it from https://formspree.io → your form → Integration tab
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xqeglael';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xlgopepg';
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error';
 
