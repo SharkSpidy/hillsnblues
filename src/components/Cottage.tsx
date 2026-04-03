@@ -58,6 +58,17 @@ function Cottage() {
 
           {/* Card */}
           <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
+            <Armchair className="text-secondary-300 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="font-heading text-lg text-white">Inviting Living Room</h3>
+              <p className="text-xs text-primary-200 mt-1">
+                A warm and welcoming space to unwind with your loved ones. Enjoy heartfelt conversations, board games, or simply relax with a cup of tea while gazing at the greenery outside.
+              </p>
+            </div>
+          </div>
+
+
+          <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
             <BedDouble className="text-secondary-300 w-6 h-6 mt-1" />
             <div>
               <h3 className="font-heading text-lg text-white">Two Cozy Bedrooms</h3>
@@ -68,31 +79,21 @@ function Cottage() {
           </div>
 
           <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
-            <Bath className="text-secondary-300 w-6 h-6 mt-1" />
-            <div>
-              <h3 className="font-heading text-lg text-white">Modern Bathroom</h3>
-              <p className="text-xs text-primary-200 mt-1">
-                Clean, well-maintained, and equipped with essential amenities to provide a refreshing experience.
-              </p>
-            </div>
-          </div>
-
-          <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
-            <Armchair className="text-secondary-300 w-6 h-6 mt-1" />
-            <div>
-              <h3 className="font-heading text-lg text-white">Inviting Living Room</h3>
-              <p className="text-xs text-primary-200 mt-1">
-                A warm and welcoming space to unwind with your loved ones. Enjoy heartfelt conversations, board games, or simply relax with a cup of tea while gazing at the greenery outside.
-              </p>
-            </div>
-          </div>
-
-          <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
             <CookingPot className="text-secondary-300 w-6 h-6 mt-1" />
             <div>
               <h3 className="font-heading text-lg text-white">Dining Area</h3>
               <p className="text-xs text-primary-200 mt-1">
                 A charming dining space where you can savor delicious home-style meals or enjoy takeaway delights from nearby eateries. Kitchen with essential amenities like fridge, microwave oven, induction cooker, RO-UV Filter for drinking water, kettle and cutleries.
+              </p>
+            </div>
+          </div>
+
+          <div className="glass-dark p-5 rounded-large flex gap-4 items-start">
+            <Bath className="text-secondary-300 w-6 h-6 mt-1" />
+            <div>
+              <h3 className="font-heading text-lg text-white">Modern Bathroom</h3>
+              <p className="text-xs text-primary-200 mt-1">
+                Clean, well-maintained, and equipped with essential amenities to provide a refreshing experience.
               </p>
             </div>
           </div>
