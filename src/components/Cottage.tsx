@@ -108,12 +108,12 @@ function Cottage() {
             </p>
 
             <div className="flex items-center justify-center sm:justify-start gap-2">
-              <span className="text-3xl font-light tracking-wide">₹5,001</span>
+              <span className="text-3xl font-light tracking-wide">₹6,000</span>
               <span className="text-sm text-primary-200">/ night</span>
             </div>
 
             <p className="text-xs text-primary-300 mt-1">
-              + ₹250 GST
+              + ₹300 GST
             </p>
           </div>
 
