@@ -33,7 +33,7 @@ function Footer() {
         {/* Socials */}
         <div className="flex justify-center md:justify-end gap-4">
           <a
-            href="#"
+            href="https://www.instagram.com/hillsnblues"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-neutral-800 hover:bg-primary-700 hover:text-white transition-all"
           >
             <Instagram className="w-5 h-5" />
