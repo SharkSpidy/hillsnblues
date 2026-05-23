@@ -3,6 +3,7 @@ import Bedroom2 from '../../assets/images/Bed_Room_2.jpeg';
 import LivingRoom from '../../assets/images/Living_Room_1.jpeg';
 import LivingRoom2 from '../../assets/images/Living_Room_2.jpeg';
 import WashRoom from '../../assets/images/Wash_Room.jpeg';
+import Dining from '../../assets/images/Dining_Room.jpg';
 
 function Gallery() {
   return (
@@ -19,10 +20,17 @@ function Gallery() {
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
           </div>
-          <div className="md:col-span-1 md:row-span-2 rounded-large overflow-hidden cursor-pointer group">
+          <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
             <img
               src= {Bedroom2}
               alt="Bedroom 2"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+          </div>
+          <div className="md:col-span-1 md:row-span-1 rounded-large overflow-hidden cursor-pointer group">
+            <img
+              src= {Dining}
+              alt="Dining Room"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
           </div>
