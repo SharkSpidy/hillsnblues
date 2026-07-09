@@ -67,7 +67,7 @@ function Experience() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
               <h3 className="font-heading text-xl text-white mb-1">
-                Parunthumpara Views
+                Parunthumpara View Point
               </h3>
               <p className="text-neutral-300 text-sm">
                 Breathtaking viewpoints just a short drive away.
